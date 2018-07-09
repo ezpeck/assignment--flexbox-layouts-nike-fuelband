@@ -1,0 +1,63 @@
+/** {
+	outline: solid 1px red;
+}*/
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+	width: 73%;
+	/*width: 70%;*/
+	position: relative;
+	left: 13.5%;
+}
+
+h1 {	
+	border-bottom: solid lightgray 1px;
+	padding: 25px 0;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+div.sec-1 {
+	width: 73%;
+	/*width: 70%;*/
+	position: relative;
+	left: 13.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.sec-2 {
+	/*max-width: 70%;*/
+	width: 70%;
+	position: relative;
+	left: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+
+}
+
+.product_description {
+	padding: 0;
+	margin: 5px;
+}
+
+figure {
+	padding: 0;
+	margin: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+	font-style: italic;
+}
+span {
+	font-weight: bold;
+}
+
